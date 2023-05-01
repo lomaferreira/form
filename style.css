@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 .container {
@@ -18,4 +19,28 @@ flex-direction: row;
 }
 .inputs{
 border: 1px solid black;
+
+}
+.style_inputs input {
+  
+}
+.style_inputs i,.style_inputs small{
+    visibility: hidden; /*nao aparecer nenhum icon*/
+}
+
+.success input{
+    border:  2px solid #4ECA64;
+}
+
+.success i {
+    visibility: visible;
+}
+
+.error input{
+    border: 2px solid #DB5A5A;
+}
+
+.error i,.error small{
+    visibility: visible;
+    color: #DB5A5A;
 }
