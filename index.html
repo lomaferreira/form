@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form</title>
     <link rel="stylesheet" href="./style.css" />
+   
   </head>
   <body>
-    <form class="container">
+    <form id="container" required>
       <section class="text">
         <h1>Learn to code by watching others</h1>
         <p>
@@ -20,7 +21,7 @@
       <section class="inputs">
         <div class="value">Try it free 7 days then $20/mo. thereafter</div>
         <div class="style_inputs">
-          <input type="text"  placeholder="First Name" id="first_name" >
+          <input type="text"  placeholder="First Name" id="first_name">
           <i><img src="./ assets /icon-error.svg" alt=" img error" class="img_error"></i>
           <i><img src="./ assets /success-icon.svg" alt="img success" class="img_success"></i>
           <small>ERROR</small>
@@ -37,12 +38,12 @@
           <i><img src="./ assets /icon-error.svg" alt=" img error" class="img_error"></i>
           <i><img src="./ assets /success-icon.svg" alt="img success" class="img_success"></i>
           <small>ERROR</small>
-          <button>CLAIM YOUR FREE TRIAL</button>
+          <button type="submit" id="submit">CLAIM YOUR FREE TRIAL</button>
         </div>
         <footer>By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></footer>
       </section>
     </form>
-
+    
     <script src="./script.js"></script>
   </body>
 </html>
